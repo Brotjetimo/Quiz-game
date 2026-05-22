@@ -11,13 +11,13 @@ Voor dit project heb ik de volgende programeer talen en frameworks gebruikt:
 
 ## Startup:
 The dockerfile copy's the "node" font-end by copying the file directory. It also sets up an nginx server for local hosting by copying it out of the front-end and setting up a localhost at port 80.
-
 The actual front-end and mysql server gets created in the docker-compose.yml file.
-installation
+
+### installation
 
 - To start this application make sure that you own docker desktop and composer.
 
-setup
+### setup
 
 - First clone this repo from the github by using the folowing command: gitclone (repo ssh)
 - When the envirement is accessable use the following command to start up the application: Docker compose up. This will create the nessasary containers to run the application.
